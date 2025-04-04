@@ -7,7 +7,7 @@ javascript객체 문법으로 구조화된 데이터 교환 형식으로,<br>
   
 [내용]<br>
 javascript에서 EcmaScript는 버전이 1,2,3,...15처럼 업데이트 되고, 파이썬 버전 또한 업데이트되지만.<br>
-일반적으로 json형식은 업데이트되지 않는다. 또한, 일반적으로 사용하는 것이 아닌<br>
+일반적으로 json형식은 업데이트되지 않는다. <br>
 javscript에서는 object로, 파이썬에서는 dictionary로 데이터가 변환된다.<br>
 이때, json은 javascript에서 json.parse를 쓰고, 파이썬에서는 json.load를 사용한다.<br>
 
