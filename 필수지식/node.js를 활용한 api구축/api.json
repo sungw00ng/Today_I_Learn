@@ -1,4 +1,10 @@
 {
-    "name":"sungw00ng",
-    "tail":"200"
+  "productName": "스마트 워치",
+  "model": "XYZ-Pro",
+  "price": 199.99,
+  "features": ["심박수 측정", "GPS", "수면 분석"],
+  "manufacturer": {
+    "name": "Tech Innovations Inc.",
+    "country": "USA"
+  }
 }
