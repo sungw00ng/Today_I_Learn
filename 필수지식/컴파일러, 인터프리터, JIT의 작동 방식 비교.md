@@ -74,7 +74,7 @@ JIT 컴파일러는 컴파일러와 인터프리터의 장점을 결합한 방�
 
 ### 🖼️ 실행 구조 다이어그램
 
-![컴파일러, 인터프리터, JIT 비교 다이어그램](<img width="655" alt="Image" src="https://github.com/user-attachments/assets/f67c51ff-867b-46b3-b0b4-59425843e22a" />)
+![컴파일러, 인터프리터, JIT 비교 다이어그램](https://github.com/user-attachments/assets/f67c51ff-867b-46b3-b0b4-59425843e22a)
 <br>
 *※ 그림에는 각각의 방식이 번역/실행되는 방식과 흐름, 캐시 유무, 실행 타이밍 등을 시각적으로 표현해두는 게 좋아. 예를 들어 JIT의 경우 Hot Spot Code가 컴파일된다는 아이콘이나 JVM 내부 흐름이 있으면 최고.*
 
