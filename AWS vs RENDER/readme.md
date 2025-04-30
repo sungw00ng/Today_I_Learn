@@ -40,10 +40,4 @@ RENDER는 신용카드없이 무료로 사용 가능함.<br>
 | **Vue 연동 방식** | 깃허브 레포 접근 권한 부여             | 깃허브 레포 접근 권한 부여          | Vue 앱에서 HTTP 요청으로 데이터 사용  | Vue 앱에서 HTTP 요청으로 데이터 사용      |
 | **Render 배포 시** | Render의 GitHub 연결 시 사용 가능      | Render의 GitHub 연결 시 사용 가능    | Vue 앱 (Static Site) & json-server (Web Service) 분리 배포 | Vue 앱 (Static Site) & Express.js (Web Service) 분리 배포 |
 
-**깔끔한 요약:**
 
-* **Personal Access Token (PAT) & SSH Key:** 깃허브에 접근하기 위한 인증 방식입니다. PAT는 HTTPS 기반, SSH Key는 SSH 기반이며, SSH Key가 자동 로그인과 보안 면에서 조금 더 유리합니다. Render와 같은 배포 플랫폼에서 깃허브 레포지토리를 연결할 때 사용됩니다.
-* **json-server (with Vue):** Vue.js로 개발하는 프론트엔드 앱과 연동하여 **가짜 (Mock) API 서버** 역할을 합니다. 로컬 개발 환경에서 빠르게 API를 테스트하거나 백엔드 개발 전에 데이터를 미리 구성해 볼 때 유용합니다. Render에 배포할 수도 있지만, 실제 서비스용 백엔드로는 적합하지 않습니다.
-* **Express.js (with Vue):** Node.js 기반의 **웹 애플리케이션 프레임워크**로, Vue.js 프론트엔드와 통신할 **실제 백엔드 API 서버**를 구축하는 데 사용됩니다. 데이터베이스 연동, 사용자 인증, 복잡한 비즈니스 로직 구현 등 실 서비스에 필요한 다양한 기능을 개발할 수 있습니다. Render와 같은 플랫폼에 배포하여 실제 서비스 환경에서 운영됩니다.
-
-**핵심 차이:** PAT와 SSH Key는 **깃허브 인증**에 사용되는 반면, `json-server`와 Express.js는 **백엔드 API 서버**를 구축하는 데 사용됩니다. Vue.js 앱은 이 백엔드 API 서버와 통신하여 데이터를 주고받습니다. Render 환경에서 Vue.js 앱을 배포할 때는 이 네 가지를 각각의 역할에 맞게 활용할 수 있습니다.
