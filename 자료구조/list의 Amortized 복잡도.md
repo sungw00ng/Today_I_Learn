@@ -1,6 +1,6 @@
 # Python list.append()의 Amortized 시간복잡도
 
-Python의 `list.append()`는 **Amortized O(1)**의 시간복잡도를 가짐.<br>
+Python의 `list.append()`는 **Amortized O(1)**의 시간복잡도를 가짐. <br>
 Amortized라는 용어는 평균적인 비용을 계산할 때 사용하는 개념으로, <br>
 전체 작업을 여러 번에 걸쳐 나누었을 때 각 작업의 평균 비용을 의미함.<br>
 특정 작업이 자주 수행되는 동안 일부 작업은 시간이 많이 걸릴 수 있지만,<br>
