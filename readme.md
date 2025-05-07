@@ -5,6 +5,6 @@
 *코드 복붙 x<br>
 
 ## reference
-CS 지식의 정석(Inflearn)
-코드없는 프로그래밍(Youtube)  
-이것이 취업을 위한 코딩 테스트다 with 파이썬(Book)
+CS 지식의 정석(Inflearn) <br>
+코드없는 프로그래밍(Youtube)  <br>
+이것이 취업을 위한 코딩 테스트다 with 파이썬(Book) <br>
