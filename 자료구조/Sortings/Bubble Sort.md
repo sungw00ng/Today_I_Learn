@@ -24,7 +24,7 @@
 [3 1 5 7 9]<br>
 ...<br>
 [1 3 5 7 9]<br>
-...<br>
+<br>
 <br>
 >버블정렬 문제 모음집(Baekjoon B1~D2)< <br>
 https://www.acmicpc.net/workbook/view/19101<br>
