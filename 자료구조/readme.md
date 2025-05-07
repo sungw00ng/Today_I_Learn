@@ -16,6 +16,7 @@ Python 기준으로 자주 쓰는 자료구조들의 평균 및 최악 시간복
 | 중간 삽입/삭제    | O(n)       |
 
 * `*`: 평균적으로는 O(1)이지만, 내부 배열 크기 재할당이 발생할 경우 O(n)
+https://github.com/sungw00ng/Today_I_Learn/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/list%EC%9D%98%20Amortized%20%EB%B3%B5%EC%9E%A1%EB%8F%84.md
  ```python
 # 리스트 예제
 arr = [1, 2, 3, 4]
