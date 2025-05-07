@@ -1,4 +1,4 @@
-1. Bubble Sort
+1. Bubble Sort(+Baekjoon Problems B1~D2)
 2. Insertion Sort
 3. Selection Sort
 4. Merge Sort
