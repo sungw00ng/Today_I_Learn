@@ -1,3 +1,6 @@
+# 자료구조
+[자료구조 이동](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%A3%BC%EC%9A%94%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%A0%95%EB%A6%AC.md) <br>
+# 알고리즘
 ✅ 1. 기본 알고리즘 (이미 알고 있는 분류)  
 그리디 (Greedy)  
 <br>시간 복잡도: 문제마다 다름 (보통 O(N), O(N log N))
