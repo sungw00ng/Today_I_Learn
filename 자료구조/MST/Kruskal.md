@@ -1,5 +1,6 @@
 # Kruskal
 <img src="https://github.com/user-attachments/assets/52a0e196-f2df-4910-8a3e-559ad88b08f0" width="800"/> <br>
+`출처: 차근차근 이해하는 알고리즘` <br>
 가중치가 가장 낮은 **간선**부터 선택하는 알고리즘 <br>
 1. 간선의 가중치를 기준으로 간선들을 오름차순으로 정렬하고, <br>
 2. 유니온-파인드 사용.
