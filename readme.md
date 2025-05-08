@@ -8,3 +8,4 @@
 CS 지식의 정석(Inflearn) <br>
 코드없는 프로그래밍(Youtube)  <br>
 이것이 취업을 위한 코딩 테스트다 with 파이썬(Book) <br>
+차근차근 이해하는 알고리즘(Book) <br>
