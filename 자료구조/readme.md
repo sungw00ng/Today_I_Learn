@@ -8,12 +8,13 @@
 `구현 (Implementation)` <br>
 시간 복잡도: 문제마다 다름 (보통 O(N)~O(N²))
 
-`DFS / BFS (탐색)` 
+`DFS / BFS (탐색)` <br>
 시간 복잡도: O(N + M) (N: 노드 수, M: 간선 수)
 
 `정렬 (Sorting)`  
-시간 복잡도: O(N log N)
-
+시간 복잡도: O(N log N)<br>
+[정렬 이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings) <br>
+<br>
 `이진 탐색 (Binary Search)`  
 시간 복잡도: O(log N)
 
