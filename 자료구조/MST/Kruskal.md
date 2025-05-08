@@ -6,5 +6,5 @@
 2. 유니온-파인드 사용.
 # 시간복잡도
 O(nlogn)
-# 사이클 검사 유무 방법 : disjoint set의 개념을 사용하는 union-find 
+# 유니온 파인드: 사이클 검사 유무
 [이동](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/union-find.md)
