@@ -28,11 +28,11 @@ Bubble_sort_Optim(A,B)
 #2. 최적화 후
 ```python
 import sys
-input = sys.stdin.readline
+input=sys.stdin.readline
 
-N = int(input())
-A = list(map(int, input().strip().split()))
-B = list(map(int, input().strip().split()))
+N=int(input())
+A=list(map(int, input().strip().split()))
+B=list(map(int, input().strip().split()))
 
 def is_same(a, b):
     for i in range(N):
@@ -45,14 +45,14 @@ def Bubble_sort_Optim(A, B):
         print(1)
         return
 
-    for cycle in range(N - 1):
-        swap_flag = False
-        for i in range(N - 1 - cycle):
-            if A[i] > A[i + 1]:
-                A[i], A[i + 1] = A[i + 1], A[i]
-                swap_flag = True
-                if A[i] == B[i] and A[i + 1] == B[i + 1]:
-                    if is_same(A, B):
+    for cycle in range(N-1):
+        swap_flag=False
+        for i in range(N-1-cycle):
+            if A[i] > A[i+1]:
+                A[i], A[i+1]=A[i+1],A[i]
+                swap_flag=True
+                if (A[i]==B[i] and A[i+1]==B[i+1]):
+                    if is_same(A,B):
                         print(1)
                         return
         if not swap_flag:
