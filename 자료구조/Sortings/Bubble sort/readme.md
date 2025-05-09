@@ -1,3 +1,9 @@
+# Bubble sort
+>버블정렬 문제 모음집(Baekjoon B1~D2) <br>
+[이동](https://www.acmicpc.net/workbook/view/19101)<br>
+
+>Solved <br>
+[이동](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_23968.md)<br>
 ## 파이썬 버블 정렬의 시간 복잡도 및 안정성
 파이썬에서 구현하는 일반적인 버블 정렬은 **안정적인(stable) 정렬 알고리즘**이다. <br>
 안정적인 정렬이란, 정렬 후에도 값이 같은 요소들의 상대적인 순서가 유지되는 것을 의미한다. <br>
@@ -15,5 +21,4 @@
 성능이 급격하게 저하되는 비효율적인 정렬 알고리즘이다. <br>
 하지만 일반적인 파이썬 구현은 Stable한 정렬 방식이다. <br>
 <br>
->버블정렬 문제 모음집(Baekjoon B1~D2) <br>
-https://www.acmicpc.net/workbook/view/19101<br>
+
