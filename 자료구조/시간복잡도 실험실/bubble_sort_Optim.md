@@ -1,7 +1,3 @@
-# 성능 향상 체크용 Tool 
-- Big-O Calc Site 
-- https://www.bigocalc.com/ <br>
-
 # 최적화 코드의 성능 향상 분석
 [자세히 보기](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings/Bubble%20sort/Bubble_sort_Optimization.md)<br>
 버블 정렬 알고리즘의 원래 버전과 최적화된 버전은 비슷한 시간 복잡도를 갖지만,
