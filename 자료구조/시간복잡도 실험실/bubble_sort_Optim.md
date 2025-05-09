@@ -1,6 +1,6 @@
 # 최적화 코드의 성능 향상 분석
 [자세히 보기](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings/Bubble%20sort/Bubble_sort_Optimization.md)<br>
-버블 정렬 알고리즘의 원래 버전과 최적화된 버전은 비슷한 시간 복잡도를 갖지만,
+버블 정렬 알고리즘의 원래 버전과 최적화된 버전은 비슷한 시간 복잡도를 갖지만, <br>
 최적화된 버전은 실제로 더 나은 성능으로 이어질 수 있는 몇 가지 개선 사항을 도입했습니다.
 
 # 시간복잡도
