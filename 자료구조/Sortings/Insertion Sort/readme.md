@@ -4,6 +4,7 @@
 >Solved <br> 
 [B1_24051](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_24051.md) <br>
 [B1_24052](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_24052.md)<br>
+[G5_24053](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/G5_24053.md)<br>
 
 # 파이썬 삽입 정렬의 시간 복잡도 및 안정성
 삽입 정렬(Insertion Sort) 은 배열을 왼쪽에서부터 하나씩 정렬해나가는 방식으로, <br>
