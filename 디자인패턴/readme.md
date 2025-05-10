@@ -8,8 +8,8 @@
 
 | 패턴                  | 설명                        |
 | ------------------- | ------------------------- |
-| 🧱 Singleton        | 단 하나의 인스턴스만 생성            |
-| 🏭 Factory Method   | 객체 생성을 서브클래스에게 위임         |
+| 🧱 [Singleton](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4.md)        | 단 하나의 인스턴스만 생성            |
+| 🏭 [Factory Method](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%8C%A9%ED%86%A0%EB%A6%AC%ED%8C%A8%ED%84%B4.md)   | 객체 생성을 서브클래스에게 위임         |
 | 🏗 Builder          | 복잡한 객체의 생성 과정을 분리         |
 | 🌱 Prototype        | 객체를 복사(clone)하여 생성        |
 | 🎛 Abstract Factory | 관련 객체들을 묶어서 생성 (팩토리의 팩토리) |
@@ -33,8 +33,8 @@
 
 | 패턴                         | 설명                            |
 | -------------------------- | ----------------------------- |
-| 👀 Observer                | 객체 상태 변화 감지 후 자동 알림 (이벤트 리스너) |
-| 🧠 Strategy                | 알고리즘을 객체로 캡슐화, 런타임 교체 가능      |
+| 👀 [Observer](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)                | 객체 상태 변화 감지 후 자동 알림 (이벤트 리스너) |
+| 🧠 [Strategy](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4.md)                | 알고리즘을 객체로 캡슐화, 런타임 교체 가능      |
 | 🗃 Command                 | 요청을 객체로 캡슐화하여 실행 취소/저장 가능     |
 | 🔄 State                   | 객체 상태에 따라 행동이 달라짐             |
 | 📋 Memento                 | 객체의 이전 상태 저장 및 복원             |
