@@ -19,5 +19,19 @@
 # 요약 
 삽입 정렬은 작은 데이터나 거의 정렬된 데이터에 적합.<br>
 데이터가 많아질수록 비효율적이지만, <br>
-구현이 간단하고 메모리를 거의 사용하지 않음.
-Stable 하다는 점에서 특정 비즈니스 문제에 유리함 (예: 고객 등급은 유지하되 정렬 등).<br>
+구현이 간단하고 메모리를 거의 사용하지 않음. <br>
+Stable 하다는 점에서 특정 비즈니스 문제에 유리함 <br>
+(예: 고객 등급은 유지하되 정렬 등).<br>
+
+#Insertion_Sort (shift기반)
+```python
+def insertion_Sort(arr):
+    for idx in range(1,len(arr)):
+        to_insert=arr[idx] #value
+        i=idx #index
+        #shift 
+        while i>0 and arr[i-1]>to_insert:
+            arr[i]=arr[i-1] 
+            i-=1 
+        arr[i]=to_insert
+```
