@@ -1,7 +1,7 @@
 >삽입정렬 문제 모음집(Baekjoon B1~G3) <br>
 [B1_23881](https://www.acmicpc.net/problem/23881) [B1_23882](https://www.acmicpc.net/problem/23882) [G4_23883](https://www.acmicpc.net/problem/23883) [G4_23884](https://www.acmicpc.net/problem/23884) [B1_23899](https://www.acmicpc.net/problem/23899) [G3_23900](https://www.acmicpc.net/problem/23900)<br><br>
 >Solved <br> 
-[B1_238811](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_23881.md) <br>
+[B1_23881](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_23881.md) <br>
 
 
 ## 파이썬 선택 정렬의 시간 복잡도 및 안정성
