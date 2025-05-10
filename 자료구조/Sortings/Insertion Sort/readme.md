@@ -2,6 +2,7 @@
 >삽입정렬 문제 모음집(Baekjoon B1~P4) <br>
 [B1_24051](https://www.acmicpc.net/problem/24051) [B1_24052](https://www.acmicpc.net/problem/24052) [G5_24053](https://www.acmicpc.net/problem/24053) [P4_24054](https://www.acmicpc.net/problem/24054) [P4_24055](https://www.acmicpc.net/problem/24055) [G2_24056](https://www.acmicpc.net/problem/24056)<br><br>
 >Solved <br> 
+[B1_24051](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/B1_24051.md) <br>
 
 # 파이썬 삽입 정렬의 시간 복잡도 및 안정성
 삽입 정렬(Insertion Sort) 은 배열을 왼쪽에서부터 하나씩 정렬해나가는 방식으로, <br>
@@ -25,13 +26,34 @@ Stable 하다는 점에서 특정 비즈니스 문제에 유리함 <br>
 
 #Insertion_Sort (shift기반)
 ```python
+import sys
+input=sys.stdin.readline
+N,K=map(int,input().strip().split())
+arr=list(map(int,input().strip().split()))
 def insertion_Sort(arr):
+    cnt=0
+    result=-1
     for idx in range(1,len(arr)):
         to_insert=arr[idx] #value
-        i=idx #index
-        #shift 
-        while i>0 and arr[i-1]>to_insert:
-            arr[i]=arr[i-1] 
-            i-=1 
+        i=idx #idx
+
+        #shift
+        while(i>0 and arr[i-1]>to_insert):
+            arr[i]=arr[i-1]
+            cnt+=1
+            if(cnt==K):
+                result=arr[i]
+                return result
+            i-=1
         arr[i]=to_insert
+
+        #insert
+        if idx != i: 
+            cnt += 1
+            if(cnt==K):
+                result=arr[i]
+                return result
+    return result
+
+print(insertion_Sort(arr))
 ```
