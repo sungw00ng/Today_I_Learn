@@ -25,3 +25,28 @@
 하지만 일반적인 파이썬 구현은 Stable한 정렬 방식이다. <br>
 <br>
 
+## Bubble sort
+```python
+import sys
+input=sys.stdin.readline
+N,K=map(int,input().split())
+a=list(map(int,input().split()))
+cnt=0
+result=-1
+#multiple cycle
+for cycle in range(len(a)-1):
+    flag=False
+    #1cycle
+    for i in range(len(a)-1-cycle): #가장 큰 값 1개는 맨 뒤로. (-cycle)
+        if(a[i]>a[i+1]):
+            cnt+=1
+            #swap
+            a[i],a[i+1]=a[i+1],a[i]
+            if(cnt==K):
+                flag=True
+                result=f"{a[i]} {a[i+1]}"
+                break
+    if flag:
+        break
+print(result)
+```
