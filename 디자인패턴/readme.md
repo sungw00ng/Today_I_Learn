@@ -26,7 +26,7 @@
 | 🎨 Decorator | 기존 객체에 기능을 동적으로 추가       |
 | 🏠 Facade    | 복잡한 시스템을 단순 인터페이스로 감싸기   |
 | 🧬 Flyweight | 공유를 통해 객체 생성을 줄여 메모리 절약  |
-| 🔗 Proxy     | 객체에 대한 접근을 제어하는 대리 객체 제공 |
+| 🔗 [Proxy](https://github.com/sungw00ng/Today_I_Learn/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A8%ED%84%B4.md)     | 객체에 대한 접근을 제어하는 대리 객체 제공 |
 
 3. 행동(Behavioral) 패턴<br>
 객체 간의 책임 분배와 상호작용 방식
