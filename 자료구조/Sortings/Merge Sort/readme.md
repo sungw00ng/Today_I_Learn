@@ -17,3 +17,51 @@
 값이 같은 요소들의 순서가 유지됩니다. <br>
 병합 과정에서 왼쪽 배열의 요소를 먼저 선택하는 방식이므로, <br>
 같은 값을 가진 경우에도 입력 순서가 보존된다. <br>
+
+## 합병 정렬의 시간 복잡도
+| 경우          | 시간 복잡도     | 공간 복잡도 | 안정성   |
+| ----------- | ---------- | ------ | ----- |
+| 최선 (정렬된 경우) | O(n log n) | O(n)   | 안정적 |
+| 평균 (무작위)    | O(n log n) | O(n)   | 안정적 |
+| 최악 (역순)     | O(n log n) | O(n)   | 안정적 |
+
+## Merge Sort
+```python
+#합병 정렬(Merge) => 재귀함수
+#합치기 정렬(왼쪽,오른쪽 배열)
+def mergeLR(L,R): 
+    re=[]
+    i,j=0,0
+    
+    while i<len(L) and j<len(R):
+        if L[i] < R[j]:
+            re.append(L[i])
+            i+=1
+        else:
+            re.append(R[j])
+            j+=1
+            
+    if i==len(L):
+        while j < len(R):
+            re.append(R[j])
+            j+=1
+    elif j==len(R):
+        while i<len(L):
+            re.append(L[i])
+            i+=1
+    
+    return re
+    
+def mergeSort(arr):
+    if len(arr) <= 1:
+        return x
+    
+    # 나누기
+    div=len(arr)//2
+    left=mergeSort(arr[:div])
+    right=mergeSort(arr[div:])
+    
+    # 합치기
+    arr = mergeLR(left,right)
+    return arr
+```
