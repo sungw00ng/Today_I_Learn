@@ -1,3 +1,5 @@
+# Selection Sort
+<img src="https://github.com/user-attachments/assets/039291ef-e988-44fa-9a3f-420fb77d90b8" width="500" /> <br>
 >삽입정렬 문제 모음집(Baekjoon B1~G3) <br>
 [B1_23881](https://www.acmicpc.net/problem/23881) [B1_23882](https://www.acmicpc.net/problem/23882) [G4_23883](https://www.acmicpc.net/problem/23883) [G4_23884](https://www.acmicpc.net/problem/23884) [B1_23899](https://www.acmicpc.net/problem/23899) [G3_23900](https://www.acmicpc.net/problem/23900)<br><br>
 >Solved <br> 
