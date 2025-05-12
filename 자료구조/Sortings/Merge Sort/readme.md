@@ -1,7 +1,7 @@
 # Merge Sort
 <img src="https://github.com/user-attachments/assets/0ad0ef70-0e2c-44be-a414-117ecbb68631" width="500" height="500"/> <br>
 
->삽입정렬 문제 모음집(Baekjoon S3~G5) <br>
+>합병정렬 문제 모음집(Baekjoon S3~G5) <br>
 [S3_24060](https://www.acmicpc.net/problem/24060) [S4_24061](https://www.acmicpc.net/problem/24061) [G5_24062](https://www.acmicpc.net/problem/24062)
 <br><br>
 >Solved <br> 
