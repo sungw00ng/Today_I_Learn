@@ -5,7 +5,7 @@
 [S3_24060](https://www.acmicpc.net/problem/24060) [S4_24061](https://www.acmicpc.net/problem/24061) [G5_24062](https://www.acmicpc.net/problem/24062)
 <br><br>
 >Solved <br> 
-
+[S3_24060](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/S3_24060.md)<br>
 ## 파이썬 병합 정렬의 시간 복잡도 및 안정성
 병합 정렬(Merge Sort)은 배열을 반으로 분할하고, <br>
 각 부분을 재귀적으로 정렬한 뒤, <br>
