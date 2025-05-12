@@ -1,4 +1,5 @@
 # Bubble sort
+<img src="https://github.com/user-attachments/assets/cc3f15b9-625e-4ae7-9aab-80746d8158ac" width="600" height="200"/> <br>
 >버블정렬 문제 모음집(Baekjoon B1~D2) <br>
 [이동](https://www.acmicpc.net/workbook/view/19101)<br>
 
