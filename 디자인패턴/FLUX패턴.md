@@ -1,5 +1,5 @@
 ## FLUX 패턴
-<img src="https://github.com/user-attachments/assets/cb03a217-185c-44e9-abb3-f81e2aae123f" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/cb03a217-185c-44e9-abb3-f81e2aae123f" width="600" /> <br>
 - Flux는 사용자 입력을 기반으로 Action을 만들고, <br>
 - Action을 Dispatcher에 전달하여 Store(Model)의 데이터를 변경한 뒤,<br>
 - View에 반영하는 단방향의 흐름으로 애플리케이션을 만드는 아키텍처이다.
