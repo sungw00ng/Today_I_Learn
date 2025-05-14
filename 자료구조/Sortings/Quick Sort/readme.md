@@ -29,16 +29,49 @@
 - 분할 과정 (Partition): pivot보다 작은 값은 왼쪽, 큰 값은 오른쪽에 위치하도록 정렬
 - 재귀 호출: 분할된 좌우 배열을 재귀적으로 정렬
 
-- 사용할만한 상황
-- 퀵 정렬이 적합한 상황
-추가 메모리 사용을 최소화해야 할 때
-
-대부분의 경우 매우 빠르게 작동
-
 ## 시나리오
 - 상황: 웹 서버에서 하루 수천만 건의 로그 데이터를 수집. 로그를 시간순으로 정렬하여 이상 탐지나 사용자 흐름 분석을 진행해야 할 때
 - 요구사항: 메모리를 아껴야 하고, 시간 효율도 중요하다.
 - 적용 이유: 퀵 정렬은 in-place 정렬이 가능하여 메모리 사용이 적고, 대부분의 실전 상황에서 매우 빠르게 작동한다.
+
+## PyPy3
+```Python
+import sys
+sys.setrecursionlimit(int(1e4)) 
+input=sys.stdin.readline
+n,k=map(int,input().split())
+arr=list(map(int,input().split()))
+cnt=0
+
+def Part(arr,start,end):
+    global cnt
+    pivot=arr[end]
+    i=start-1
+    for j in range(start,end): 
+        if arr[j]<=pivot: 
+            i+=1
+            arr[i],arr[j]=arr[j],arr[i]
+            cnt+=1
+            if cnt==k:
+                print(arr[i],arr[j])
+    if i+1!=end:
+        arr[i+1],arr[end]=arr[end],arr[i+1]
+        cnt+=1
+        if cnt==k:
+            print(arr[i+1],arr[end])
+    return i+1
+
+def QuickSort(arr,start,end):
+    if start>=end:
+        return
+    q=Part(arr,start,end)
+    QuickSort(arr,start,q-1)
+    QuickSort(arr,q+1,end)
+
+QuickSort(arr,0,n-1)
+if cnt<k:
+    print(-1)
+```
 
 
 
