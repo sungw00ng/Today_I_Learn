@@ -8,5 +8,6 @@
 [이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings/Merge%20Sort)<br>
 5. Quick Sort(+Baekjoon Problems S5~S1) <br>
 [이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings/Quick%20Sort)<br>
-6. Heap Sort
+6. Heap Sort(+Baekjoon Problems S4~S4) <br>
+[이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Sortings/Heap%20Sort)<br>
 7. Counting/Radix
