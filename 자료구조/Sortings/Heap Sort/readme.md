@@ -42,6 +42,43 @@ Heap Sort는 **완전 이진 트리 구조인 힙**을 활용하여 정렬하는
 데이터가 정렬되어 있거나 역순이더라도 성능 저하가 없다. 특히 최악의 경우 퀵 정렬보다 유리하다.
 
 ## Python
+```python
+def heap_sort(arr):
+    n=len(arr)
+    arr=[None]+arr
+    
+    #힙 만들기
+    for i in range(n//2,0,-1):
+        heapify(arr,i,n)
+        
+    #정렬
+    for i in range(n,1,-1):
+        arr[1],arr[i]=arr[i],arr[1]
+        heapify(arr,1,i-1)
+    return arr[1:]
 
+def heapify(arr,k,n):
+    left=2*k
+    right=2*k+1
+    
+    #자식 노드 2개
+    if right<=n:
+        smaller=left if arr[left]>arr[right] else right
+        
+    #자식 노드 1개
+    elif left<=n:
+        smaller=left
+    #자식 노드 0개
+    else:
+        return
+    
+    if arr[smaller]>arr[k]:
+        arr[k],arr[smaller]=arr[smaller],arr[k]
+        heapify(arr,smaller,n)
+        
+arr=[3,4,5,2,3]
+print(heap_sort(arr))
+```
+- 내림차순 정렬은 heapify의 일부 >를 <로 바꾸면 된다.
 
 
