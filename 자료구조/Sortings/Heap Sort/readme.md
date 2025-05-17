@@ -2,12 +2,12 @@
 <img src="https://github.com/user-attachments/assets/80368541-8024-4727-96fd-0bc1d9e537d1" width="500" height="600"/> <br>
 
 >퀵정렬 문제 모음집(Baekjoon S4~S5) <br>
-[S4_24173](https://www.acmicpc.net/problem/24173) [S5_24091](https://www.acmicpc.net/problem/24174)
+[S4_24173](https://www.acmicpc.net/problem/24173) [S4_24174](https://www.acmicpc.net/problem/24174)
 <br><br>
 >Solved <br> 
 <br>
 
-## 파이썬 퀵 정렬의 시간 복잡도 및 안정성
+## 파이썬 힙 정렬의 시간 복잡도 및 안정성
 Heap Sort는 **완전 이진 트리 구조인 힙**을 활용하여 정렬하는 알고리즘이다.<br>
 배열을 **최대 힙Max Heap 또는 최소 힙Min Heap**으로 변환한 후, <br>
 루트 노드(최대/최소 값)를 꺼내 정렬한다. <br>
