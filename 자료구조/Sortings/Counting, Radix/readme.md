@@ -1,3 +1,5 @@
+# Counting Sort
+<img src="https://github.com/user-attachments/assets/36fda40b-1802-4006-86cd-28a807039e3a" width="600" height="400"/><br>
 ## 파이썬 계수 정렬의 시간 복잡도 및 안정성
 Counting Sort는 정수 키가 가질 수 있는 <br>
 값의 범위(0 ~ k) 를 카운트 배열에 저장한 뒤, <br>
@@ -78,7 +80,8 @@ print(result)
   ---
   ---
   <br><br>
-
+# Radix Sort
+<img src="https://github.com/user-attachments/assets/3bd192ff-c843-440b-b105-d6680f2b3263" width="600" height="400"/><br>
 ## 파이썬 기수 정렬의 시간 복잡도 및 안정성
 - Radix Sort는 자릿수(또는 문자 포지션)를 낮은 자리→높은 자리(LSD) 또는 <br>
 높은 자리→낮은 자리(MSD) 순으로 차례로 정렬하는 기법이다.<br>
