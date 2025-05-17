@@ -1,7 +1,7 @@
 # Heap Sort
 <img src="https://github.com/user-attachments/assets/80368541-8024-4727-96fd-0bc1d9e537d1" width="500" height="600"/> <br>
 
->퀵정렬 문제 모음집(Baekjoon S4~S5) <br>
+>퀵정렬 문제 모음집(Baekjoon S4~S4) <br>
 [S4_24173](https://www.acmicpc.net/problem/24173) [S4_24174](https://www.acmicpc.net/problem/24174)
 <br><br>
 >Solved <br> 
