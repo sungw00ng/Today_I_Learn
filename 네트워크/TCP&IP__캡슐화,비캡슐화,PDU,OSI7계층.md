@@ -5,7 +5,7 @@
 이 때, 데이터는 텍스트 또는 파일이다. <br>
 - HTTP, SMTP, SSH, FTP, SSH <br>
 - PDU: 메시지 <br>
-- OSI 7 : Application, Presentation, Session <br>
+- - OSI 7 : Application, Presentation, Session <br>
 
 ### Transport Layer
 - 세그먼트(TCP) 또는 데이터그램(UDP)으로 데이터를 쪼개고 <br>
@@ -14,7 +14,7 @@
 이 헤더에는 포트 번호, 순서 번호 등의 정보가 담긴다. <br>
 - TCP, UDP <br> 
 - PDU: 세그먼트(TCP, 연결형 데이터조각), 데이터그램(UDP, 비연결형 데이터조각) <br>
-- OSI 7 : 같음. <br>
+- - OSI 7 : 같음. <br>
 
 ### Internet Layer
 - 한 노드에서 다른 노드로 전송 계층에서 받은 <br>
