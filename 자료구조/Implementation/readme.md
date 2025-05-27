@@ -33,6 +33,6 @@
 >상하좌우 방향 이동<br>
 >큐, 스택을 이용한 실시간 처리<br>
 >골드 시뮬레이션 문제 (예: 삼성 SW 역량테스트 문제들)<br>
-<br>
-[DACKO에서 푼 구현 문제들] <br>
-https://github.com/DAKCOteam/BSW/tree/main/%EA%B5%AC%ED%98%84    <br>
+
+
+[tony9402님의 구현 문제집](https://github.com/sungw00ng/solved/tree/main/%EA%B5%AC%ED%98%84%EB%AC%B8%EC%A0%9C%EC%A7%91) <br>
