@@ -6,7 +6,7 @@
 <br><br>
 >Solved <br>
 [S4_24173](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/S4_24173.md)<br>
-[S2_24174](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/S4_24174.md)<br>
+[S4_24174](https://github.com/sungw00ng/solved/blob/main/%EB%B0%B1%EC%A4%80/S4_24174.md)<br>
 <br>
 
 ## 파이썬 힙 정렬의 시간 복잡도 및 안정성
