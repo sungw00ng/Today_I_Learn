@@ -107,6 +107,35 @@ def missingNUmXOR(nums:List[int])->int:
     return total_xor
 ```
 
+### 231. Power Of Two
+- 거듭제곱인 수와 거듭제곱이 아닌 수. <br>
+https://leetcode.com/problems/power-of-two/description/ <br>
+```python
+#시간 : O(log n), 공간 : O(1)
+def isPowerOfTwo(n):
+    if n==0:
+        return False
+    while n%2==0:
+        n=n/2
+    
+    if n==1:
+        return True
+    else:
+        return False
+
+#Bit 시간 : O(1), 공간 : O(1)
+def Bit_isPowerOfTwo(n):
+    if n==0:
+        return False
+        
+    diff_bits=n & (n-1)
+    
+    if diff_bits==0:
+        return True
+    else:
+        return False
+```
+
 ## 다양한 문제 풀이 
 [S2_기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)
 
