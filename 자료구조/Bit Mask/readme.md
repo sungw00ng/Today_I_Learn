@@ -35,14 +35,13 @@ https://travelbeeee.tistory.com/451 <br>
 <br><br>
 
 ## 비트 연산 예제 
+### 136. Single Number
 - 한 숫자를 제외하고 모든 숫자들이 두개씩 들어있다면 하나만 들어있는 숫자 찾기 <br>
 - ex) nums=[5,1,3,1,3,2,2] <br>
-
-### 136. Single Number
-https://leetcode.com/problems/single-number/description/
+https://leetcode.com/problems/single-number/description/ <br>
 ```python
 from typing import list
-#hashMap Approach O(N)
+#hashMap Approach 시간:O(N), 공간:O(N)
 def singleNumberHash(nums: List[int]) -> int:
     num_set=set()
     for num in nums:
@@ -57,7 +56,7 @@ def singleNumberHash(nums: List[int]) -> int:
 
     singleNumberHash(nums=[5,1,3,1,3,2,2])
     
-#Bit Manipulation O(1)
+#Bit 시간:O(N), 공간:O(1)
 def singleNumber(nums):
     single_num=0
     for num in nums:
@@ -65,6 +64,47 @@ def singleNumber(nums):
     return single_num
 
 singleNumber(nums=[5,1,3,1,3,2,2])
+```
+
+### 268. Missing Number
+- 0~n까지의 숫자가 하나를 제외하고 들어왔다. <br>
+https://leetcode.com/problems/missing-number/ <br>
+```python
+#Hash 시간 : O(n), 공간 : O(n)
+from typing import list
+def missingNumHash(nums:List[int])->int:
+    num_set=set()
+    num_count=len(nums)
+    for num in range(num_count+1):
+        num_set.add(num)
+    
+    for num in nums:
+        num_set.remove(num)
+    
+    missing_num=num_set.pop()
+    return missing_num
+        
+print(mussingNumHash(1,2,0,5,4,6))
+
+#Math 시간 : O(n), 공간 : O(1)
+def missingNumMath(nums:List[int]) -> int:
+   num_count=len(nums)
+   num_sum=int(num_count*(num_count+1)/2)
+   
+   for num in nums:
+       num_sum -= num
+      return num_sum
+
+#Bit 시간 : O(n), 공간 : O(1)
+def missingNUmXOR(nums:List[int])->int:
+    num_count=len(nums)
+    total_xor=0
+    for num in range(num)count+1):
+        total_xor ^=num
+    for num in nums:
+        total_xor ^= num
+
+    return total_xor
 ```
 
 ## 다양한 문제 풀이 
