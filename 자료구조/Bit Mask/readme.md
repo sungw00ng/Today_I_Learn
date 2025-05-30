@@ -30,11 +30,44 @@ def bitCount(x):
 
 ## 모든 부분 집합 순회하기
 <img width="900" alt="Image" src="https://github.com/user-attachments/assets/a1beea10-aa2e-4db2-a7a2-5811c841842d" />
-
-
-## 문제 풀이 예제
-[S2_기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)
+https://travelbeeee.tistory.com/451 <br>
 
 <br><br>
 
->참고한 블로그-https://travelbeeee.tistory.com/451
+## 비트 연산 예제 
+- 한 숫자를 제외하고 모든 숫자들이 두개씩 들어있다면 하나만 들어있는 숫자 찾기 <br>
+- ex) nums=[5,1,3,1,3,2,2] <br>
+
+### 136. Single Number
+https://leetcode.com/problems/single-number/description/
+```python
+from typing import list
+#hashMap Approach O(N)
+def singleNumberHash(nums: List[int]) -> int:
+    num_set=set()
+    for num in nums:
+        if num in num_set:
+            num_set.remove(num)
+        
+        else:
+            num_set.add(num)
+        
+    single_num=num_set.pop()
+    return single_num
+
+    singleNumberHash(nums=[5,1,3,1,3,2,2])
+    
+#Bit Manipulation O(1)
+ef singleNumber(nums):
+    single_num=0
+    for num in nums:
+        single_num ^=num
+    return single_num
+
+singleNumber(nums=[5,1,3,1,3,2,2])
+```
+
+## 다양한 문제 풀이 
+[S2_기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)
+
+
