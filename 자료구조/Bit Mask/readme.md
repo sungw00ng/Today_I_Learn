@@ -58,7 +58,7 @@ def singleNumberHash(nums: List[int]) -> int:
     singleNumberHash(nums=[5,1,3,1,3,2,2])
     
 #Bit Manipulation O(1)
-ef singleNumber(nums):
+def singleNumber(nums):
     single_num=0
     for num in nums:
         single_num ^=num
