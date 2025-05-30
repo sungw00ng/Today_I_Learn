@@ -1,0 +1,40 @@
+# Bit Mask
+- 정수의 이진수 표현을 이용해 상태를 압축하고, <br>
+논리 연산을 통해 상태의 변화나 체크를 효율적으로 처리하는 방식
+
+## 비트 연산자
+- a&b ==AND== ex) a=4=100(2), b=7=111(2) => a&b=100(2)=4
+- a|b ==OR== ex) a=2=010(2), b=5=101(2) => a|b=111(2)=7
+- a^b ==XOR== ex) a=3=011(2), b=5=101(2) => a^b=110(2)=6
+- ~a ==NOT== ex) a=3=011(2), ~a=100(2)=4
+- a& ~b 차집합
+- a<<b ==LEFT SHIFT== ex) a=1=001(2), a<<2=100(2)=4
+- a>>b ==RIGHT SHIFT== ex) a=4=100(2), a>>2=001(2)=1
+    
+
+## 원소 추가
+- current = current | (1<<p) : p번 원소 추가
+
+## 원소 삭제
+- current = current & ~(1<<p) : p번 원소 삭제
+
+## 원소 토글
+- current = current ^ (1<<p) : p번 원소 토글(있으면 삭제, 없으면 추가)
+
+## 집합의 크기 구하기
+```python
+def bitCount(x):
+  if(x==0) return 0
+  return x%2+bitCount(x/2)
+```
+
+## 모든 부분 집합 순회하기
+<img width="900" alt="Image" src="https://github.com/user-attachments/assets/a1beea10-aa2e-4db2-a7a2-5811c841842d" />
+
+
+## 문제 풀이 예제
+[S2_기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)
+
+<br><br>
+
+>참고한 블로그-https://travelbeeee.tistory.com/451
