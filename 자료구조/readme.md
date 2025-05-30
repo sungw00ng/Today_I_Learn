@@ -90,6 +90,7 @@
 
 ✅ 5. 비트마스킹  <br>
 집합이나 상태를 효율적으로 표현할 때 사용  <br>
+[비트 마스킹 이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Bit%20Mask)<br>
 
 `부분집합 생성`  <br>
 시간 복잡도: O(2^N)<br>
