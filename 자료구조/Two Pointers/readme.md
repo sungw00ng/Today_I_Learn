@@ -7,6 +7,7 @@
 
 ## 핵심 로직
 ```python
+while left<n:
     sum < x:
         right++
     sum > x:
