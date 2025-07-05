@@ -8,15 +8,15 @@
 ## 핵심 로직
 ```python
     while right < n:
-    if sum < x:
-        right += 1
-        sum += arr[right]
-    elif sum > x:
-        sum -= arr[left]
-        left += 1
-    else:  # sum == x
-        count += 1
-        sum -= arr[left]
-        left += 1
+        if sum < x:
+            right += 1
+            sum += arr[right]
+        elif sum > x:
+            sum -= arr[left]
+            left += 1
+        else:  # sum == x
+            count += 1
+            sum -= arr[left]
+            left += 1
 ```
 
