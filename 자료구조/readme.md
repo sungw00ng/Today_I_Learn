@@ -35,19 +35,19 @@
 ✅ 2. 누적합/구간 합 (Prefix Sum 계열)  <br>
 구간의 합을 빠르게 계산할 수 있는 테크닉  <br>
 `누적합 (Prefix Sum)`  <br>
-시간 복잡도:  <br>
-- 초기 구간합 계산: O(N)  <br>
-- 질의 처리: O(1)<br>
+시간 복잡도: <br> 
+초기 구간합 계산: O(N)  <br>
+질의 처리: O(1)<br>
 <br>
 `2차원 누적합`  <br>
 시간 복잡도:  <br>
-- 초기 계산: O(N*M)  <br>
-- 질의 처리: O(1)<br>
+초기 계산: O(N*M)  <br>
+질의 처리: O(1)<br>
 <br>
 `차이 배열 (Difference Array)`  <br>
 시간 복잡도:  <br>
-- 업데이트: O(1)  <br>
-- 누적합 계산: O(N)<br>
+업데이트: O(1)  <br>
+누적합 계산: O(N)<br>
 <br>
 
 ---
@@ -110,6 +110,7 @@
 시간 복잡도: O(N log N)<br>
 
 `투 포인터 (Two Pointers): 정렬된 배열에서 구간 문제 해결`  <br>
+[투 포인터 이동](https://github.com/sungw00ng/Today_I_Learn/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Two%20Pointers)<br>
 시간 복잡도: O(N)<br>
 
 ---
