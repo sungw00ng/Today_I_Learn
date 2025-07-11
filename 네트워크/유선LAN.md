@@ -1,7 +1,13 @@
+## 전이중화 통신
+- 전이중화 통신은 양쪽 장치가 동시에 송수신할 수 있는 방식이다. <br>
+- 동축케이블, 광케이블 기반으로 만들어진 유선 LAN을 이루는 이더넷은 <br>
+IEEE802.3 프로토콜을 기반으로 전이중화 통신을 사용한다.<br>
+
 ## CSMA/CD
 <img width="500" height="600" src="https://github.com/user-attachments/assets/a786e5f6-00e1-4845-b987-cef737d9510f"/><br>
 >https://velog.io/@inyong_pang/CSMACDCarrier-Sence-Multiple-Access-Collision-Detection
 
+- 과거 유선 LAN은 '반 이중화 통신' 중 하나인 CSMA/CD를 사용했다. (현재 X)
 - 회선 사용(채널 감지)하는지 파악 후, 사용하지 않는다면 데이터를 보낸다.
 - 충돌이 발생한다면 일정 시간 이후 재전송하는 방식이다.
 
