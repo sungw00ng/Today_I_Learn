@@ -1,7 +1,9 @@
 # IPC(Inter-Process Communication)
 - 프로세스 간 통신을 의미한다.
 - 프로세스끼리 데이터를 주고받고 공유 데이터를 관리하는 메커니즘
-- 공유메모리, 파일, 소켓, 파이프, 메시지 큐 등이 있다.
+- 공유메모리, 파일, 소켓, 파이프, 메시지 큐 등이 있다. 
+
+<br>
 
 ## 공유메모리
 ![a1](https://github.com/user-attachments/assets/8da63c41-69af-4ba1-b5a6-9864e73295ff)<br>
